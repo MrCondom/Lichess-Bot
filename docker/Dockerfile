@@ -15,8 +15,10 @@ WORKDIR $LICHESS_DIR
 
 COPY . .
 
+RUN apt-get update && apt-get install -y stockfish && rm -rf /var/lib/apt/lists/*
+
 RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
-RUN chmod +x docker/copy_files.sh && ln -s $LICHESS_DIR/config/config.yml config.yml
+RUN chmod +x docker/copy_files.sh 
 
 CMD docker/copy_files.sh && python3 lichess-bot.py ${OPTIONS} --disable_auto_logging
