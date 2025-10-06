@@ -2,9 +2,8 @@
 **/__pycache__
 /engines/*
 !/engines/README.md
-!/engines/defense.bin
 !/engines/opening.bin
-!/engines/syzygy
+!/engines/defense.bin
 lichess_bot_auto_logs/*
 .vscode/*
 .vs/*
