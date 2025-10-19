@@ -427,7 +427,7 @@ class EngineWrapper:
 
     def name(self) -> str:
         """Get the name of the engine."""
-        return self.engine.id["name"]
+        return "Jaxman Engine v1.1"
 
     def get_pid(self) -> str:
         """Get the pid of the engine."""
