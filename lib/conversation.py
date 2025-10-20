@@ -122,8 +122,15 @@ class Conversation:
                 "The IMMORTAL GAME (Anderssen vs Kieseritzky, 1851) Is Still Considered The Most Beautiful Game Ever Played.",
                 "The FIDE Rating System Was Invented By A Hungarian Physics Professor Named Arpad Elo.",
                 "The Rook Is Called A 'Castle', But Originally Meant 'Chariot'.",
-                "The Chess Clocks Was Invented In 1883, Replacing Sand Timers."
-
+                "The Chess Clocks Was Invented In 1883, Replacing Sand Timers.",
+                "Chess Has A Tradition Of A Handshake. It Is A Ritual That Signifies Mutual Respect.",
+                "July 20th Is Celebrated As World Chess Day, Officially Proclaimed By The UN General Assembly In 2019.",
+                "Chess Is Believed To Have Originated In India Around The 6th Century AD.",
+                "Did You Know? The Longest Wait Before A Castling Move In Chess History Occured In The 1866 Game Between Bobotsor & Irkov, Where White Finally Castled on Move 46 (46. 0-0).",
+                "Otto Blathy (1860-1939) Is Credited With Composing The Longest Known Chess Problem... A Checkmate In 290 Moves.",
+                "There Are More Than 122 Million Possible Ways For A Knight To Complete A full Tour Of The Chessboard.",
+                "Dr. Emanuel Lasker Of Germany Held The World Chess Championship Title Longer Than Anyone In History,,, An Incredible 26 Years And 337 Days.",
+                "The Longest Recorded Streak Of Moves Without A Single Capture Is 100 Moves, Set During The 1992 Match Between Thorton & M. Walker."
                 ]
                 self.send_reply(line, random.choice(facts))
             else:
@@ -141,6 +148,14 @@ class Conversation:
                 "My Chess Engine And I Broke Up, It Said I Wasn't Deep Enough.",
                 "I Told My Opponent a joke, But He Didn't Get The Move.",
                 "The Pawn Went To Therapy, It Had An Identity Crisis After Promotion.",
+                "Why Was The Chess Piece Lonely? Because It Was Just An Isolated Pawn.",
+                "My Chess Coach Told Me To 'Open Up More', So I Played The Sicilian.",
+                "What's A Chess Player's Favorite Dance Move? The Queen's Slide.",
+                "I Told My Friend I'd Check On Him Later... He Said 'Stop Threatening Me!'.",
+                "Why Don't Chess Players Ever Get Locked Out? They Always Have A Key move.",
+                "Why Dont't Computers Ever Cry During Chess? They Dont't Have Feelings, Only Evaluations.",
+                "Why Did The Chess Player Bring A Pencil? In Case They Needed A Draw."
+
                 ]
                 self.send_reply(line, random.choice(jokes))
             else:
@@ -155,7 +170,10 @@ class Conversation:
                 "This Board Is my Playground",
                 "Somewhere, A Chess Coach Is Crying Right Now",
                 "The Position Is Collapsing Faster Than My WIFI",
-                "Even My Pawns, Saw That Blunder Coming."
+                "Even My Pawns, Saw That Blunder Coming.",
+                "I Don't Blunder... I Simulate Mercy.",
+                "I Generate Heat Faster Than Your Ideas.",
+                "When I Say 'Check', You Should Probably Start apologizing."
                 ]
                 self.send_reply(line, random.choice(taunts))
             else:
